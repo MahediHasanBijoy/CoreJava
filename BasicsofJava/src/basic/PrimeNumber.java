@@ -12,6 +12,7 @@ public class PrimeNumber {
 		
 		System.out.println("Enter a positive number: ");
 		num= input.nextInt();
+		input.close();
 		
 		for(i=2; i<num; i++) {
 			if(num%i==0)

@@ -20,6 +20,6 @@ public class VowelConsonent {
 		{
 			System.out.println("this is a consonent.");
 		}
-		
+		input.close();
 	}
 }

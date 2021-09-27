@@ -10,6 +10,7 @@ public class UserInput {
 		System.out.println("enter any number: ");
 		
 		num= input.nextInt();
+		input.close();
 		
 		System.out.println("number= "+num);
 		

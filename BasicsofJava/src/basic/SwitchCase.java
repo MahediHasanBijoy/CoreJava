@@ -21,6 +21,8 @@ public class SwitchCase {
 			System.out.println("default value is none!");
 		}
 		
+		input.close();
+		
 		
 	}
 }
